@@ -1,0 +1,14 @@
+// .storybook/main.js
+
+module.exports = {  
+  "stories": [
+    "../src/**/*.stories.tsx"
+  ],
+  "addons": [
+    "@storybook/preset-create-react-app",
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-knobs",
+    "storybook-readme",
+  ]
+}
